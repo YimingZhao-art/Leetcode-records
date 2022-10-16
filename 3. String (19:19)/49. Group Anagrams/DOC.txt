@@ -1,0 +1,9 @@
+Group Anagrams
+
+ALGORITHM
+
+Hash[sorted str]
+
+NOTE:
+1. Don't need to check null case
+2. str can be sorted, not sort()

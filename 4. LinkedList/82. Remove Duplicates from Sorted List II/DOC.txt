@@ -1,0 +1,23 @@
+Remove Duplicate 
+
+怎么处理
+3 3 4 4
+这种情况
+
+while(head!=NULL){
+
+	if(head->next!=NULL && head->val==head->next->val){
+	
+		while(head->next!=NULL && head->val==head->next->val) {
+			head=head->next;
+		}
+		cout << head->val << " ";
+		
+		prev->next=head->next; <---只改了下一个没有推进
+	}
+	
+	else prev=prev->next; <---我们在这里才推进
+	
+	
+	head=head->next;
+}

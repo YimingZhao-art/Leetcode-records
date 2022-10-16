@@ -1,0 +1,11 @@
+Insertion Sort
+
+NOTE
+
+when create the dummy node
+don't make the head to be next
+
+if so
+
+dummy head -> head ->next
+will conserve always

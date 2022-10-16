@@ -1,0 +1,5 @@
+Length of the last string
+
+NOTE:
+Split() != Split(" ")
+the former delete all the space

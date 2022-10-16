@@ -1,0 +1,23 @@
+Swap Adjacent LR
+
+ALGORITHM
+XL -> LX
+RX -> XR
+
+Therefore,
+L ... L ... L
+... L ... L
+
+L can only move to left
+R can only move to right
+
+if L(end) > L(start) False
+
+Why L, R in place is feasible anyway?
+
+R...L .R.R. L .... L
+L...R.L.L....R..R
+
+Because we drop the " " first
+
+it make sure its anagrom
