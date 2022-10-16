@@ -1,0 +1,13 @@
+Set Matrix to Zero
+
+ALGORITHM1
+
+1. Set to change one to max_int + 1
+
+2. preserve the state of col/row in first row/col
+
+but row0 and col0 use one
+
+so we use Var to store
+
+However, we need to update from the bottom

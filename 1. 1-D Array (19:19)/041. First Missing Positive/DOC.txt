@@ -1,0 +1,12 @@
+first missing positive
+
+ALGORITHM
+
+
+we still use the inner set
+
+however, the number we can't change
+
+but we can change the index
+
+so we put every inner number to appropriate index

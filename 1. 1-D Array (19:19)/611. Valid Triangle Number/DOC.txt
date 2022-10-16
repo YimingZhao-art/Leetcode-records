@@ -1,0 +1,14 @@
+triangleNumber
+
+ALGORITHM
+
+same as sum of three number
+
+1. Sort the list in descending order
+
+2. from the largest
+
+two pointer
+
+if left + right > largest, count += right-left, left += 1
+else right--

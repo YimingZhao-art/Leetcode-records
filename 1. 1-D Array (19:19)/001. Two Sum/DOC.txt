@@ -1,0 +1,17 @@
+twoSum
+
+ALGORITHM
+
+1. two for-loop
+
+2. hash
+required = tar - current
+if hash[required] not find
+put it in hash
+O(n)
+
+NOTE
+repeated element
+Hash will be larger than current index of repeated
+so we need to check
+i!=dictHashmap[target-nums[i]]

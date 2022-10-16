@@ -1,0 +1,18 @@
+Candy Rush
+
+ALGORITHM
+
+Check all entry
+
+boundary control: i<m-2, j<n-2
+
+mark in place : -1
+
+SINK DOWN
+
+if board[p][j] > 0:
+	board[i][j] = board[p][j]
+	i -= 1
+
+keep the positive in place
+sink down if board[i][j] !=

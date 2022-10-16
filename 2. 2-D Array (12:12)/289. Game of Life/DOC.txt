@@ -1,0 +1,9 @@
+Game Of Life
+
+ALGORITHM
+
+Handle boundary
+
+1. Add boundary
+
+2. Boundary check

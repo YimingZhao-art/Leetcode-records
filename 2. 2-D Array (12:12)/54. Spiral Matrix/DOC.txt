@@ -1,0 +1,13 @@
+Spiral Matrix
+
+ALGORITHM
+
+1. Recursion
+
+2. Two Pointers
+
+NOTE
+
+we need to handle
+
+when one col or one row is left

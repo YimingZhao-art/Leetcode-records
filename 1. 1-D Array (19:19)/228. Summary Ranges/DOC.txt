@@ -1,0 +1,6 @@
+summary range
+
+two pointers
+
+Note
+pack the last digit

@@ -1,0 +1,11 @@
+Count Battle Ship
+
+ALGORITHM
+
+Each 'X' we add 1, however, we need to reduce repeat
+
+As no adjacent ship
+
+each 'X' above or at left is the same ship
+
+so if we find 'X' at left above corner, we minus one

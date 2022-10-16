@@ -1,0 +1,24 @@
+find all duplicates
+
+O(n)
+O(1)
+
+traverse and use constant memory
+
+a(i) [1,n]
+length [0,n-1]
+
+
+ALGORITHM
+
+a(i) - 1 is within the range of length
+
+therefore
+
+we don't use extra memory,
+we store the hash in the table
+
+if value of a(i) is -
+we visit the place i,
+
+a[abs(nums[i])-1] *= -1

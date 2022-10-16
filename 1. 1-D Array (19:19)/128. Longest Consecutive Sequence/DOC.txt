@@ -1,0 +1,23 @@
+Longest Consecutive Sequence
+
+ALGORITHM
+
+Since O(n) is required
+
+We use hash to search
+
+1.
+hash[each] = long_around
+
+cons:
+each-1 and each+1 are waiting for update
+
+not only O(n)
+
+2.
+python中的set也是hash
+
+hash[each] = True
+
+when do search, we only consider the start number i.e. hash[each-1] = False
+then we only need to update the numbers after once

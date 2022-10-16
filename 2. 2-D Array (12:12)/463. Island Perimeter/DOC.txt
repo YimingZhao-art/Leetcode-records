@@ -1,0 +1,6 @@
+Island Perimeter
+
+ALOGORITHM
+
+Count the zero around
+And if the neighbour is boundary, add it directly

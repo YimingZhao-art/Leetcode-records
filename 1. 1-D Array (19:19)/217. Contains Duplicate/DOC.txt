@@ -1,0 +1,7 @@
+containsDuplicate
+
+Method1
+
+1.Dictionary
+
+2.set and list length

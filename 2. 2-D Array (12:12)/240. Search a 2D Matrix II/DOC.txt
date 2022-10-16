@@ -1,0 +1,13 @@
+Search 2D array:
+
+ALGORITHM
+
+We start from right top corner
+
+if it equals to --> retrun
+
+if it smaller than target: it's the largest in the row
+row -> next row
+
+if it is larger than target: it's the smallest in the col
+col -> previous col

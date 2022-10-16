@@ -1,0 +1,16 @@
+Traverse Diagonal
+
+ALGORITHM
+
+1. i, j to find next one
+O(1)
+
+
+2. hash to store the matrix
+we know we can categorize diagonal by i+j
+
+if i+j % 2 == 1:
+it's in order
+
+else:
+reverse

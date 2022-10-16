@@ -1,0 +1,19 @@
+trapWater
+
+ALGORITHM
+
+1. Collect every layer
+
+O(n*max_height)
+
+2. Two Pointer
+
+1 from left
+1 from right
+
+Left_tallest
+Right_tallest
+
+Rain can be trapped between min(Left_tallest, Right_tallest)
+Every time pointer moves, increment
+Update the highest

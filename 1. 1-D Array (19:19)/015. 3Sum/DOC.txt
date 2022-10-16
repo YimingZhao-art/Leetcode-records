@@ -1,0 +1,8 @@
+threeSum
+
+ALGORITHM
+1. Fix the last number, use twoSum to cope the other two numbers
+O(n^2)
+
+2. Three pointers
+O(n^2) but space O(1)

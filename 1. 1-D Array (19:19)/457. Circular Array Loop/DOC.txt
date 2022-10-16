@@ -1,0 +1,20 @@
+Circular Array Loop
+
+ALGORITHM
+
+1.
+from each unvisited point(All visited points no need to revisit)
+use DFS
+
+mark in the array by +-(start index+1)*1000
+Because one point can be placed in two loops(All visited points no need to revisit)
+
+NOTE: loop need to use the same direction
+
+next = (curr + tag*(abs(nums[curr])%1000))%L
+for example, -1001 % 1000 -> 999, so we need to use abs(-1001)%1000, but don't forget the direction, we use tag
+
+
+2.
+two pointers
+

@@ -1,0 +1,15 @@
+rotateArray
+
+NOTE:
+List = List[:] + List[:]
+will change List_id
+
+ALGORITHM
+
+1. Copy List and slicing
+pass in values one by one
+
+2. Shift digit
+temp <- last k slice
+shift prefix
+fix the last slice

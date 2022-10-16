@@ -1,0 +1,35 @@
+wiggleSort1
+
+Analysis
+
+Case 1 -- the even digit is right, next is wrong
+
+we know even is the valley
+
+large small large
+
+wrong means:
+
+large large1 small (but large1 < large
+
+after exchange large1 and small
+
+large small large1
+
+it is right
+
+Case 2 -- the odd digit is right, next is wrong
+
+we know even is the summit
+
+small large small
+
+wrong means:
+
+small small1 large (small1 > large)
+
+after exchange small1 and large
+
+small large small1
+
+it is right
